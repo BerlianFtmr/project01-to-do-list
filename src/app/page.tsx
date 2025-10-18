@@ -14,7 +14,7 @@ export default function Home() {
       
       {/* FOTO */}
       <Image
-        src="H:\KULIAH\SEM 3\Praktikum Pemrograman Web\Tugas\to-do-list\public\3f8dce2ef62113a38a157f2b4117c12f.jpg"
+        src="/profile.jpg"
         alt="Profile"
         width={120}
         height={120}
