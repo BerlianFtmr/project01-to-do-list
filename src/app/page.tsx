@@ -14,7 +14,7 @@ export default function Home() {
       
       {/* FOTO */}
       <Image
-        src="/profile.png"
+        src="H:\KULIAH\SEM 3\Praktikum Pemrograman Web\Tugas\to-do-list\public\3f8dce2ef62113a38a157f2b4117c12f.jpg"
         alt="Profile"
         width={120}
         height={120}
@@ -23,27 +23,26 @@ export default function Home() {
 
       {/* HERO */}
       <h1 className="text-4xl font-bold mb-2">Hellow, Namaku Ian</h1>
-      <p className="text-gray-300 text-center max-w-md mb-12">
+      <p className="text-purple-300 text-center max-w-md mb-12">
         Mahasiswa Informatika, Universitas Nahdlatul Ulama Yogyakarta
       </p>
 
       {/* ABOUT */}
       <h2 className="text-2xl font-semibold mb-2">About Me</h2>
       <p className="text-gray-400 text-center max-w-md mb-12">
-        Passionate in technology, UI/UX, and education. Currently learning Next.js and building LMS platform.
+        Aku mahasiswa semester 3 yang sangat tertarik dengan dunia web development.
       </p>
 
       {/* SKILLS */}
       <h2 className="text-2xl font-semibold mb-6">Skills</h2>
         <div className="flex gap-6 text-4xl mb-16">
-          <SiHtml5 size={40} color="#F97316" />
+          <SiHtml5 size={40} color="#e51010ff" />
           <SiCss3 size={40} color="#2563EB" />         
           <SiJavascript size={40} color="#FACC15" />   
           <SiReact size={40} color="#22D3EE" />        
-          <SiNextdotjs size={40} color="#FFFFFF" />
+          <SiNextdotjs size={40} color="#d6ec30ff" />
           <SiTailwindcss size={40} color="#38BDF8" />  
         </div>
-
 
       {/* CONTACT */}
       <h2 className="text-2xl font-semibold mb-3">Contact</h2>
