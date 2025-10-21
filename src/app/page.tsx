@@ -7,11 +7,13 @@ import {
   SiNextdotjs,
   SiTailwindcss,
 } from "react-icons/si";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center px-6 py-12">
-      
+      <Navbar />
+
       {/* FOTO */}
       <Image
         src="/profile.jpg"
